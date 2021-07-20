@@ -1,10 +1,10 @@
 const whichSchool = function (age) {
   if (age < 13){
-    return "Elementary School"
+    return "Elementary School";
   } else if (age === 13 || age <= 18) {
-    return "Secondary School"
+    return "Secondary School";
   } else {
-    return "Lighthouse Labs"
+    return "Lighthouse Labs";
   }
 } 
 console.log(whichSchool(19))
